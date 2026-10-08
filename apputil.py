@@ -2,7 +2,8 @@ import plotly.express as px
 import pandas as pd
 
 # update/add code below ...
-df = pd.read_csv("train.csv")
+df = pd.read_csv( "https://raw.githubusercontent.com/leontoddjohnson/datasets/main/data/titanic.csv"
+)
 # Rename columns to lowercase-underscore format
 df.columns = (
     df.columns
